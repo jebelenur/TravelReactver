@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, ol {
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    line-height: 0.8;
+}
+.container{
+    width: 1148px;
+    margin: 0 auto;
+}
+.sec_subtitle{
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: no;
+    font-family: "Montserrat", sans-serif;
+}
+.sec_title{
+    color: #036E8A;
+    font-family: "Montserrat", sans-serif;
+    font-size: 55px;
+    line-height: normal;
+    font-weight: 700;
+}
+.para{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}

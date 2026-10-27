@@ -1,0 +1,118 @@
+#destination{
+    padding-top: 148px;
+    padding-bottom: 90px;
+    position: relative;
+    z-index: 99;
+}
+.destination_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.destination_content{
+    width: 560px;
+}
+.destination_content .sec_title{
+    margin-top: 31px;
+}
+.destination_content .para{
+    color: #000;
+    margin-top: 30px;
+}
+.destination_video{
+    width: 508px;
+    height: 369px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+.destination_video img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.destination_video_icon{
+    display: inline-block;
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.destination_video_icon svg{
+    color: #036E8A;
+    font-size: 22px;
+}
+.book_now{
+    margin-top: 70px;
+    border: 2px solid #036E8A;
+    border-radius: 10px;
+    padding: 54px 64px 50px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book_now_btn{
+    padding: 16px 45px;
+    background-color: #FF8000;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 15px;
+}
+.location_price .location{
+    position: relative;
+}
+.location_price .location::after{
+    position: absolute;
+    content: "";
+    right: -80px;
+    top: 10px;
+    height: 96px;
+    width: 4px;
+    background-color: #FF8000;
+}
+.location_price .location h4{
+    color: #036E8A;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+.star_wrapper{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 14px;
+}
+.star_wrapper svg{
+    color: #FF8000;
+    font-size: 23px;
+}
+.star_wrapper svg:last-child{
+    opacity: 0.5;
+}
+.location_price{
+    display: flex;
+    gap: 166px;
+}
+.location_price .price .para{
+    color: #000;
+}
+.location_price .price span{
+    color:#036E8A;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Montserrat", sans-serif;
+}
